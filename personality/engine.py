@@ -1,4 +1,4 @@
-from personality.prompts import CALM_MENTOR, THERAPIST_STYLE
+from .prompts import CALM_MENTOR, THERAPIST_STYLE
 
 def generate_response(user_input: str, personality: str) -> str:
     """
